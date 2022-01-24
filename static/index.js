@@ -127,7 +127,6 @@ function gameRestart() {
     _gameTimeNum = 20;
     GameTimeLayer.innerHTML = creatTimeText(_gameTimeNum);
     countBlockSize();
-    refreshGameLayer(GameLayer[0]);
     refreshGameLayer(GameLayer[1], 1);
 }
 
